@@ -163,10 +163,55 @@ img {
   max-width: 100%;
   height: auto;
 }
+#top-image {
+  margin-left: 27%;
+  margin-bottom: 50px;
+}
+.top-text {
+  width: 50%;
+  margin-left: 27.8%;
+}
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.btn .button {
+  display: block;
+  background-color: #17A2B8;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-left: 15%;
+}
+@media (max-width: 500px) {
+  nav {
+    border: 2px solid red;
+  }
+}
+nav header h1 {
+  display: flex;
+  color: blue;
+}
+@media (max-width: 500px) {
+  nav header h1 {
+    text-align: center;
+  }
+}
+nav a {
+  display: flex;
+  text-decoration: none;
+  color: black;
 }
 .footer {
   width: 100%;
