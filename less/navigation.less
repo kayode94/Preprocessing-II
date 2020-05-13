@@ -1,33 +1,31 @@
-// Navigation Styles here
+// Navigation Styles 
 
 nav{
-    @media(max-width:500px){
-        border: 2px solid red;
-        
-    }
     display:flex;
-    justify-content: end;
-    justify-content: space-evenly;
-
-    // border:2px solid red;
-    font-size: 1.6rem;
-    margin-bottom: 20px;
-    margin-left:15%;
-    header h1{
-        display: flex;
-        color:blue;
-        @media(max-width: 500px){
-            text-align: center;
-            
-        }
+    justify-content: space-between;
+    text-align: center;
+    // border:2px solid black;
+    width:50%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    @media @mobile{
+        flex-direction: column;
+        justify-content: space-evenly;
+        .border()
     }
-    a{
-        @media(max-width: 500px){
-
-        }
+    ul{
+        display:flex;
+        margin-left: 10%;
+        margin-top: 15px;
+        text-decoration: none;
+        color:black;
+        font-size: 1.5rem;
+    }
+    li a{
         display:flex;
         text-decoration: none;
         color:black;
+        // border:2px solid red;
+        // padding-right: 10px;
+    }
 }
-}
-

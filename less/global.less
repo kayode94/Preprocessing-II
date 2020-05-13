@@ -40,29 +40,22 @@ img {
 }
 
 #top-image{
-  margin-left: 27%;
+  margin-left: 25%;
   margin-bottom: 50px;
 }
 
 .top-text{
   // border:2px solid red;
   width:50%;
-  margin-left: 27.8%;
+  margin-left: 25%;
+  @media @mobile{
+    .border();
+    width:70%;
+  }
 }
 
 .container {
-  max-width: 800px;
+  max-width: 960px;
   width: 100%;
   margin: 0 auto;
-}
-
-.btn .button{
-  display: block;
-  background-color: @eastern-blue;
-  margin: 0 10px 20px;
-  cursor: pointer;
-  width: 200px;
-  height: 45px;
-  font-size: 2rem;
-  border-radius: 10px;
 }
